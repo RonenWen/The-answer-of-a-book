@@ -5,6 +5,7 @@ int main()
 {
     int n;
     cin >> n;
+    if(n>20) return 0;
     for (int i = n; i >=1; i--)
     {
         for (int j = n; j > i; j--)
